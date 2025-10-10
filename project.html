@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5501/portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Document</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f4f4f4;">
+
+    <div style="width: 90%; max-width: 800px; margin: 20px auto; padding: 20px; background-color: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 10px; box-sizing: border-box;">
+
+        <p style="font-size: 1.5rem; font-weight: bold; margin-bottom: 10px; text-align: center;">Amit Kumar</p>
+
+        <p style="font-size: 1rem; color: #333; margin: 5px 0; text-align: center;">Section: A</p>
+        <p style="font-size: 1rem; color: #333; margin: 5px 0; text-align: center;">Branch: CSE AIML</p>
+        <br>
+        <p style="font-size: 1rem; color: #2707a7; margin: 5px 0; text-align: center;">SMART WATCH</p>
+        <img src="./project_files/smart watch.jpg" alt="Image" style="width: 100%; height: auto; border-radius: 8px; margin: 20px 0;">
+
+        <div style="font-size: 0.95rem; color: #444; line-height: 1.6; text-align: justify;">
+            <p><strong>Introduction to Smartwatches</strong><br>
+            A smartwatch is a wearable digital device that combines the functionality of a traditional watch with features similar to a smartphone. It is typically worn on the wrist and connects to your smartphone via Bluetooth or Wi-Fi. This connection allows it to show real-time notifications, fitness data, and other useful information directly on your wrist. Smartwatches have become increasingly popular for their convenience, style, and ability to support a healthier lifestyle.</p>
+
+            <ul style="margin: 0 0 20px 20px;">
+                <li>Acts like a mini smartphone on your wrist</li>
+                <li>Connects via Bluetooth/Wi-Fi to your phone</li>
+                <li>Shows time, date, and notifications</li>
+            </ul>
+
+            <p><strong>Key Features and Capabilities</strong><br>
+            Smartwatches offer a wide range of features beyond just telling time. They provide health and fitness tracking, such as monitoring your heart rate, sleep patterns, steps taken, and calories burned. Some models include advanced sensors for blood oxygen (SpO2), ECG, and stress levels. Others come with built-in GPS for tracking outdoor activities and workouts. Additionally, many smartwatches support voice assistants (like Siri or Google Assistant), music control, and contactless payments.</p>
+
+            <ul style="margin: 0 0 20px 20px;">
+                <li>Tracks health metrics like heart rate and sleep</li>
+                <li>GPS for outdoor tracking and fitness</li>
+                <li>Supports music, voice commands, and payments</li>
+            </ul>
+
+            <p><strong>Popular Brands and Options</strong><br>
+            There are several brands offering smartwatches with varying features and prices. The Apple Watch is ideal for iPhone users due to its seamless integration and advanced health tools. Samsung Galaxy Watches are a strong choice for Android users, offering great displays and battery life. Garmin is well-known among athletes for its durable design and fitness focus, while Fitbit is popular for its simplicity and long battery life. Amazfit offers budget-friendly options with impressive features.</p>
+
+            <ul style="margin: 0 0 20px 20px;">
+                <li>Apple Watch: premium, best with iPhone</li>
+                <li>Samsung Galaxy Watch: top for Android users</li>
+                <li>Garmin: focused on fitness and outdoor use</li>
+                <li>Fitbit &amp; Amazfit: affordable and health-focused</li>
+            </ul>
+
+            <p><strong>Advantages and Disadvantages</strong><br>
+            Smartwatches bring convenience by letting you check messages, calls, and notifications without picking up your phone. They encourage better health habits by reminding you to move, tracking sleep, and more. However, they also come with some drawbacks. Many smartwatches have limited battery life, especially high-end models, and may require daily charging. Additionally, advanced models can be expensive, and some features may not work unless paired with a specific phone brand.</p>
+
+            <p><strong>Pros:</strong></p>
+            <ul style="margin: 0 0 20px 20px;">
+                <li>Quick access to calls, texts, and apps</li>
+                <li>Health tracking and fitness motivation</li>
+                <li>Customizable and stylish designs</li>
+            </ul>
+
+            <p><strong>Cons:</strong></p>
+            <ul style="margin: 0 0 20px 20px;">
+                <li>Battery life can be short (1–2 days in some)</li>
+                <li>Some models are costly</li>
+                <li>Limited compatibility across platforms</li>
+            </ul>
+        </div>
+
+    </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
